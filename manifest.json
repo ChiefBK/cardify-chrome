@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Cardify",
+  "version": "1.0",
+  "description": "Creates stack overflow answers using Chat GPT",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://stackoverflowteams.com/c/lightricks/questions/*"
+      ]
+    }
+  ]
+}
